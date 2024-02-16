@@ -6,12 +6,17 @@ This is a big project that combines 5 disease types and 1 drug classification da
 
 5 disease types:
 🧋 Diabetes
+
 🍺 Liver Disease
+
 👩 Breast Cancer
+
 🫀 Heart Disease
+
 🫘 Chronic Kidney Disease
 
-and 1 drug data.
+and 
+💊 drug data.
 
 This big project aims to **predict which disease type or drug it is after the users enter the data**. The model we use to predict here is SVM, since it has the best performance among 6 datasets.
 
