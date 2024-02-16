@@ -4,6 +4,7 @@ Welcome to the **Medical Diagnosis & Drug Treatment Prediction Project🗂️**!
 
 
 **Workflow**
+
 Step 1: I cleaned the 17 missing data since their cancer type and text are both missing. I then converted cancer type into numeric form by using function and if statement instead of LabelEncoder to review some basic concepts of Python.
 
 Step 2: Now it is time to clean dirty text! The steps are
@@ -20,4 +21,5 @@ Step 3: One new thing I added this time is this cool figure Word Cloud, where we
 Step 4: Again, after vectorizing the data, it is time to train the Naive Bayes classifier model and predict the outcome.
 
 **Result and Discussion**
+
 The accuracy is 0.8. It is better than the Netflix Genre Classification Project. The medical text is long so I think more unnecessary words can be removed!
