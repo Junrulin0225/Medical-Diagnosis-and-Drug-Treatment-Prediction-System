@@ -18,7 +18,7 @@ The ultimate goal of this project is to build an app that people can use.
 - Step 3: After data cleaning preprocessing, here comes the step where we fitted and predicted the model. Since every dataset requires the same steps to split, standardize, fit, train, and predict, this is where 'function' comes in handy.
 
 
-- Step 4: The most fun part of this project is to build something interactive. I want users to enter all the data, later on, the predict outcome will tell you whether **this patient potentially has disease ABC** or **this patient should take drug XYZ**
+- Step 4: The most fun part of this project is to build something interactive. I want users to enter all the data, later on, the predict outcome will tell you whether **this patient potentially has disease ABC** or **this patient should take drug XYZ**.
 
 **Result and Discussion**
 
