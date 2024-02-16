@@ -5,11 +5,11 @@ Welcome to the **Medical Diagnosis & Drug Treatment Prediction Project 🩺**!
 This is a big project that combines 5 disease types and 1 drug classification data. After analyzing 6 datasets, I decided to put them all together for an interactive project for users. 
 
 5 disease types:
-- Diabetes
-- Liver Disease
-- Breast Cancer
-- Heart Disease
-- Chronic Kidney Disease
+🧋 Diabetes
+🍺 Liver Disease
+👩 Breast Cancer
+🫀 Heart Disease
+🫘 Chronic Kidney Disease
 
 and 1 drug data.
 
