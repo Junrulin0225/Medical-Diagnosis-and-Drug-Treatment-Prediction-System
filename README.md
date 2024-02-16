@@ -15,7 +15,10 @@ and 1 drug data.
 
 This big project aims to **predict which disease type or drug it is after the users enter the data**. The model we use to predict here is SVM, since it has the best performance among 6 datasets.
 
-The ultimate goal of this project is to build an app that people can use.
+Dataset explained (👉 Drug Treatment.csv)
+- Na_to_K ratio: Sodium to Potassium ratio in the human body. The recommended Sodium to Potassium ratio for humans is 1:3. That is Potassium intake should be 3 times higher than Sodium intake.
+- BP: Blood pressure levels
+
 
 
 **Workflow**
