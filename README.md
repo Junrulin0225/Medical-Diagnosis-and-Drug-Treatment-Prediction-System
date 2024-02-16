@@ -2,24 +2,24 @@
 
 Welcome to the **Medical Diagnosis & Drug Treatment Prediction Project🗂️**!
 
+This is a big project that combines 5 disease types and 1 drug classification data. After analyzing 6 datasets, I decided to put them all together for an interactive project for users. 
+
+This big project aims to **predict which disease type or drug it is after the users enter the data**. The model we use to predict here is SVM, since it has the best performance among 6 datasets.
+
+The ultimate goal of this project is to build an app that people can use.
+
 
 **Workflow**
 
-Step 1: I cleaned the 17 missing data since their cancer type and text are both missing. I then converted cancer type into numeric form by using function and if statement instead of LabelEncoder to review some basic concepts of Python.
+- Step 1: I cleaned and visualized all 6 datasets by removing missing values and skew, applying EDA.
 
-Step 2: Now it is time to clean dirty text! The steps are
+- Step 2: The data preprocessing here is to convert categorical data into numeric form. Both useful tools, LabelEncoder and Lambda were used. 
 
-covert all the characters to lowercase
-remove unwanted space and non-English characters
-tokenize the text into words
-create the stopword list
-print out the new text without stopwords
-You can access the clean text example here 👉 Text_after_cleaning.csv
+- Step 3: After data cleaning preprocessing, here comes the step where we fitted and predicted the model. Since every dataset requires the same steps to split, standardize, fit, train, and predict, this is where 'function' comes in handy.
 
-Step 3: One new thing I added this time is this cool figure Word Cloud, where we can easily visualize the occurrence frequency of the words depending on their size. I would say this is the most fun thing I have added to this project :)
 
-Step 4: Again, after vectorizing the data, it is time to train the Naive Bayes classifier model and predict the outcome.
+- Step 4: The most fun part of this project is to build something interactive. I want users to enter all the data, later on, the predict outcome will tell you whether **this patient potentially has disease ABC** or **this patient should take drug XYZ**
 
 **Result and Discussion**
 
-The accuracy is 0.8. It is better than the Netflix Genre Classification Project. The medical text is long so I think more unnecessary words can be removed!
+This project took me a lot of time to build but it feels great after seeing the product. I know if the prediction is accurate enough, it can help medical professionals save lots of time and effort! 
